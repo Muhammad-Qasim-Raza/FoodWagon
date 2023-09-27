@@ -1,0 +1,248 @@
+@font-face {
+    font-family: Source Sans Pro;
+    src: url(./fonts/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro-light;
+    src: url(./fonts/SourceSansPro-Light.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro-bold;
+    src: url(./fonts/SourceSansPro-Bold.otf);
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(./fonts/OpenSans-Regular.ttf);
+}
+
+* {
+    font-family: Source Sans Pro;
+}
+
+.mynavbar {
+    background-color: #FFF;
+    box-shadow: 0px 20px 40px 0px rgba(255, 174, 0, 0.29), 0px 5px 10px 0px rgba(255, 174, 0, 0.26);
+}
+
+#navtext1 {
+    width: 197px;
+}
+
+@media (max-width: 768px) {
+    #navtext1 {
+        margin-left: 65%;
+    }
+}
+
+@media (max-width: 991px) {
+    .to-hide {
+        display: none;
+    }
+}
+
+#navtext3 {
+    color: #FFB30E;
+}
+
+#searchicon {
+    color: #FFB30E;
+}
+
+#mybutton {
+    padding: 5px 15px;
+    border: none;
+    color: #FFB30E;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 20px 40px 0px rgba(255, 174, 0, 0.29), 0px 5px 10px 0px rgba(255, 174, 0, 0.26);
+}
+
+.main0 {
+    margin-top: 66px;
+    display: flex;
+    justify-content: center;
+}
+
+.main1 {
+    padding-top: 80px;
+    background-color: #FFB30E;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.main2 {
+    width: 45%;
+}
+
+@media (max-width: 964px) {
+    .main2 {
+        width: 77%;
+    }
+}
+
+.main1>div>h1 {
+    color: #FFF;
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.main1>div>p {
+    color: #504F4F;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+@media (max-width: 768px) {
+    .main1>div>h1 {
+        color: #FFF;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .main1>div>p {
+        color: #504F4F;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 120%;
+    }
+}
+
+.main1img {
+    width: 80%;
+    margin-left: 11%;
+}
+
+@media (max-width: 1208px) {
+    .main1img {
+        margin-top: 10px;
+    }
+}
+
+.main1-1 {
+    background-color: #FFF;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+#mybutton1 {
+    border-radius: 8px;
+    border: none;
+    background: rgba(241, 114, 40, 0.10);
+    color: #F17228;
+    padding: 7px 20px;
+}
+
+#mybutton2 {
+    border-radius: 8px;
+    border: none;
+    background: #FFF;
+    color: #757575;
+    padding: 7px 25px;
+}
+
+.myhr1 {
+    color: #757575;
+}
+
+.myinput1 {
+    padding: 7px 0px 8px 16px;
+    border-radius: 8px;
+    background: #F5F5F5;
+    border: none;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.main1-3 {
+    position: relative;
+    width: 68%;
+}
+
+.main1-2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.myicon1 {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    color: #FF7474;
+}
+
+#mybutton3 {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(96deg, #FF7A7A -39.64%, #F65900 135.31%);
+    color: #F5F5F5;
+}
+
+.mainC1 {
+    margin-top: 40px;
+}
+
+.mycards {
+    display: flex;
+    justify-content: center;
+}
+
+.mycards>div {
+    border: none;
+}
+
+.mainC1img {
+    width: 357px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.mycardbdy {
+    text-align: justify;
+}
+
+.mainC1ct {
+    color: var(--theme-gray-800, #424242);
+
+    /* Headline 6 Bold */
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 26.4px */
+}
+
+.mainC1btn {
+    color: var(--theme-warning, #F17228);
+
+    /* Headline 6 Bold */
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 26.4px */
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: rgba(241, 114, 40, 0.20);
+    border: none;
+}

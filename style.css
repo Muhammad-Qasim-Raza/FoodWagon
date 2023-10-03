@@ -43,6 +43,17 @@
     }
 }
 
+@media (max-width: 991px) {
+    .mysearchandlogin {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.navmiddletext {
+    margin-top: 1.3%;
+}
+
 #navtext3 {
     color: #FFB30E;
 }
@@ -672,3 +683,236 @@
     }
 
 }
+
+.mainC6 {
+    display: flex;
+    padding: 100px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    background: #FEEFD0;
+}
+
+.C6-1 {
+    display: flex;
+    gap: 20px;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background: #FFF;
+    box-shadow: 0px 27px 82px 0px rgba(255, 174, 0, 0.28), 0px 14px 15px 0px rgba(255, 174, 0, 0.01);
+}
+
+.C6-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 27px;
+}
+
+.C6-2-1 {
+    width: 80px;
+}
+
+.C6-2-2 {
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    width: 85px;
+    font-weight: 700;
+    background: linear-gradient(93deg, #FB3C00 -47.72%, #FFB800 136.81%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.vertical-line {
+    border: 1.4px solid #CFCFCF;
+    width: 2px;
+    height: 90px;
+}
+
+@media screen and (max-width: 768px) {
+    .C6-1 {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .vertical-line {
+        border: 1.4px solid #CFCFCF;
+        height: 2px;
+        width: 90px;
+    }
+
+    .C6-2 {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+.background-img {
+    height: 440px;
+    background: linear-gradient(261deg, #FFAE00 63.85%, #FF8A00 111.94%);
+    width: 100%;
+}
+
+.background-img>img {
+    width: 100%;
+}
+
+.C7-0 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainC7 {
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.C7-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.C7-1>img {
+    height: 440px;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .C7-1>img {
+        height: 440px;
+        width: 100%;
+    }
+}
+
+.C7-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.C7-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.C7-3>img {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background: var(--theme-white, #FFF);
+    box-shadow: 0px 20px 40px 0px rgba(255, 174, 0, 0.29), 0px 5px 10px 0px rgba(255, 174, 0, 0.26);
+}
+
+.C7-2-1 {
+    font-family: Source Sans Pro;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 106%;
+    background: var(--yellow-button, linear-gradient(93deg, #FFB800 -47.72%, #FF8A00 136.81%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+    .C7-2-1 {
+        font-family: Source Sans Pro;
+        font-size: 33px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 106%;
+        background: var(--yellow-button, linear-gradient(93deg, #FFB800 -47.72%, #FF8A00 136.81%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.C7-2-2 {
+    width: 349px;
+    height: 75px;
+    align-self: stretch;
+    color: #827E7E;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+@media screen and (max-width: 768px) {
+    .C7-2-2 {
+        width: 300px;
+        height: 75px;
+        align-self: stretch;
+        color: #827E7E;
+        font-family: Open Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .C7-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin-top: -56px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .C7-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+   .mainC7 {
+    display: flex;
+    flex-direction: column-reverse;
+   }
+
+   .background-img {
+    height: 693px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+    .background-img {
+     height: 668px;
+    }
+ }
+
+@media screen and (max-width: 600px) {
+    .background-img > img{
+        height: 200px;
+    }
+ }

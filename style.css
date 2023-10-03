@@ -916,3 +916,9 @@
         height: 200px;
     }
 }
+
+@media screen and (min-width: 1380px) {
+    .background-img>img {
+        height: 365px;
+    }
+}

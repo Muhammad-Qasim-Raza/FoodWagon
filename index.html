@@ -81,8 +81,20 @@
                 <div class="row g-3">
                     <div class="col col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mycards">
                         <div class="card" style="width: 18rem;">
-                            <img style="border-radius: 16px;" src="./Assets/C1-1.png" class="card-img-top mainC1img"
-                                alt="...">
+                            <div style="position: relative;">
+                                <img style="border-radius: 16px;" src="./Assets/C1-1.png" class="card-img-top mainC1img"
+                                    alt="...">
+                                <div class="discount-abs">
+                                    <div>
+                                        <h1 class="percent-off">15</h1>
+                                    </div>
+
+                                    <div style="display: flex; flex-direction: column;">
+                                        <div class="percent-off-1" style="margin-bottom: -3px;">%</div>
+                                        <div class="percent-off-2" style="margin-top: -3px;">Off</div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="card-body mycardbdy">
                                 <h5 class="card-title mainC1ct">Greys Vage</h5>
                                 <button class="mainC1btn" type="button">6 Days Remaining</button>
@@ -91,7 +103,20 @@
                     </div>
                     <div class="col col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mycards">
                         <div class="card" style="width: 18rem;">
-                            <img src="./Assets/C1-2.png" class="card-img-top mainC1img" alt="...">
+                            <div style="position: relative;">
+                                <img style="border-radius: 16px;" src="./Assets/C1-2.png" class="card-img-top mainC1img"
+                                    alt="...">
+                                <div class="discount-abs">
+                                    <div>
+                                        <h1 class="percent-off">10</h1>
+                                    </div>
+
+                                    <div style="display: flex; flex-direction: column;">
+                                        <div class="percent-off-1" style="margin-bottom: -3px;">%</div>
+                                        <div class="percent-off-2" style="margin-top: -3px;">Off</div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="card-body mycardbdy">
                                 <h5 class="card-title mainC1ct">Greys Vage</h5>
                                 <button class="mainC1btn" type="button">6 Days Remaining</button>
@@ -100,19 +125,45 @@
                     </div>
                     <div class="col col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mycards">
                         <div class="card" style="width: 18rem;">
-                            <img src="./Assets/C1-3.png" class="card-img-top mainC1img" alt="...">
+                            <div style="position: relative;">
+                                <img style="border-radius: 16px;" src="./Assets/C1-3.png" class="card-img-top mainC1img"
+                                    alt="...">
+                                <div class="discount-abs">
+                                    <div>
+                                        <h1 class="percent-off">25</h1>
+                                    </div>
+
+                                    <div style="display: flex; flex-direction: column;">
+                                        <div class="percent-off-1" style="margin-bottom: -3px;">%</div>
+                                        <div class="percent-off-2" style="margin-top: -3px;">Off</div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="card-body mycardbdy">
                                 <h5 class="card-title mainC1ct">Greys Vage</h5>
-                                <button class="mainC1btn" type="button">6 Days Remaining</button>
+                                <button class="mainC1btn" type="button">7 Days Remaining</button>
                             </div>
                         </div>
                     </div>
                     <div class="col col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mycards">
                         <div class="card" style="width: 18rem;">
-                            <img src="./Assets/C1-4.png" class="card-img-top mainC1img" alt="...">
+                            <div style="position: relative;">
+                                <img style="border-radius: 16px;" src="./Assets/C1-4.png" class="card-img-top mainC1img"
+                                    alt="...">
+                                <div class="discount-abs">
+                                    <div>
+                                        <h1 class="percent-off">20</h1>
+                                    </div>
+
+                                    <div style="display: flex; flex-direction: column;">
+                                        <div class="percent-off-1" style="margin-bottom: -3px;">%</div>
+                                        <div class="percent-off-2" style="margin-top: -3px;">Off</div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="card-body mycardbdy">
                                 <h5 class="card-title mainC1ct">Greys Vage</h5>
-                                <button class="mainC1btn" type="button">6 Days Remaining</button>
+                                <button class="mainC1btn" type="button">8 Days Remaining</button>
                             </div>
                         </div>
                     </div>
@@ -627,21 +678,21 @@
 
             </div>
 
-            <div class="search-by-food">
+            <div class="search-by-food container">
                 <div class="search-by-food-h1-div">
                     <h1 class="search-by-food-h1">Search by Food</h1>
                 </div>
 
                 <div class="view-all-main" style="display: flex; gap: 10px;">
-                    <div class="view-all">
+                    <div style="cursor: pointer;" class="view-all">
                         <span style="margin-right: 10px;">View All</span> <i class="fa-solid fa-chevron-right"></i>
                     </div>
 
-                    <div>
+                    <div style="cursor: pointer;">
                         <i class="fa-solid fa-chevron-left view-all-icon"></i>
                     </div>
 
-                    <div>
+                    <div style="cursor: pointer;">
                         <i class="fa-solid fa-chevron-right view-all-icon"></i>
                     </div>
                 </div>
@@ -709,11 +760,221 @@
                         </p>
                     </div>
                     <div class="C7-3">
-                        <img src="./Assets/C7-3.png" alt="" srcset="">
-                        <img src="./Assets/C7-4.png" alt="" srcset="">
+                        <img style="cursor: pointer;" src="./Assets/C7-3.png" alt="" srcset="">
+                        <img style="cursor: pointer;" src="./Assets/C7-4.png" alt="" srcset="">
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="mainC8 container">
+
+            <div class="C8-1 C8-1-Res">
+                <div class="C8-1-1-m">
+                    <div class="C8-1-1-1">
+                        <h1 class="C8-1-1-1-1">
+                            <span style="color: #353535;">Best deals</span> Crispy Sandwiches
+                        </h1>
+                        <p class="C8-1-1-1-2">
+                            Enjoy the large size of sandwiches. Complete
+                            perfect slice of sandwiches.
+                        </p>
+                    </div>
+
+                    <div class="C8-1-1-2">
+                        <button type="button">Proceed to order <i class="fa-solid fa-chevron-right myownclassforchevron"></i></button>
+                    </div>
+                </div>
+
+                <div class="C8-1-2 C8-1-2-Res">
+                    <img src="./Assets/C8-1.png" alt="" srcset="">
+                </div>
+            </div>
+
+            <div class="C8-1">
+                <div class="C8-1-2-2">
+                    <img src="./Assets/C8-2.png" alt="" srcset="">
+                </div>
+
+                <div class="C8-1-1-m">
+                    <div class="C8-1-1-1">
+                        <h1 class="C8-1-1-1-1">
+                            <span style="color: #353535;">Celebrate parties with</span> Fried Chicken
+                        </h1>
+                        <p class="C8-1-1-1-2">
+                            Get the best fried chicken smeared with a lip smacking lemon chili flavor. Check out
+                            best deals for fried chicken.
+                        </p>
+                    </div>
+
+                    <div class="C8-1-1-2">
+                        <button type="button">Proceed to order <i class="fa-solid fa-chevron-right myownclassforchevron"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="C8-1 C8-1-Res">
+                <div class="C8-1-1-m">
+                    <div class="C8-1-1-1">
+                        <h1 class="C8-1-1-1-1">
+                            <span style="color: #353535;">Wanna eat hot
+                                & spicy</span> Pizza?
+                        </h1>
+                        <p class="C8-1-1-1-2">
+                            Pair up with a friend and enjoy the
+                            hot and crispy pizza pops. Try it
+                            with the best deals.
+                        </p>
+                    </div>
+
+                    <div class="C8-1-1-2">
+                        <button type="button">Proceed to order <i class="fa-solid fa-chevron-right myownclassforchevron"></i></button>
+                    </div>
+                </div>
+
+                <div class="C8-1-2 C8-1-2-Res">
+                    <img src="./Assets/C8-3.png" alt="" srcset="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="mainC9">
+            <div class="C9-1">
+                <img src="./Assets/C9-1.png" alt="" srcset="">
+            </div>
+
+            <div class="C9-2">
+                <h1>Are you ready to order with the best deals?</h1>
+                <button class="C9-3" type="button">Proceed to order <i class="fa-solid fa-chevron-right myownclassforchevron"></i></button>
+            </div>
+        </div>
+
+        <div class="mainC10">
+            <div class="mainC10-0">
+                <h1 class="mainC10-1">Our top cities</h1>
+                <div class="mainC10-2">
+                    <div>
+                        <ul style="list-style: none;">
+                            <li>San Francisco</li>
+                            <li>Miami</li>
+                            <li>San Diego</li>
+                            <li>East Bay</li>
+                            <li>Long Beach</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul style="list-style: none;">
+                            <li>Los Angeles</li>
+                            <li>Washington DC</li>
+                            <li>Seattle</li>
+                            <li>Portland</li>
+                            <li>Nashville</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul style="list-style: none;">
+                            <li>New York City</li>
+                            <li>Orange County</li>
+                            <li>Orange County</li>
+                            <li>Charlotte</li>
+                            <li>Denver</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul style="list-style: none;">
+                            <li>Chicago</li>
+                            <li>Phoenix</li>
+                            <li>Las Vegas</li>
+                            <li>Sacramento</li>
+                            <li>Oklahoma City</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul style="list-style: none;">
+                            <li>Columbus</li>
+                            <li>New Mexico</li>
+                            <li>Albuquerque</li>
+                            <li>Sacramento</li>
+                            <li>New Orleans</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="border: 2px solid #424242; width: 100%;">
+
+            <div class="mainC10-3">
+                <div class="mainC10-4">
+
+                    <div class="mainC10-4-1">
+
+                        <div>
+                            <ul style="list-style: none;">
+                                <li class="mainC10-5">Company</li>
+                                <li>About us</li>
+                                <li>Team</li>
+                                <li>Careers</li>
+                                <li>Blog</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <ul style="list-style: none;">
+                                <li class="mainC10-5">Contact</li>
+                                <li>Help & Support</li>
+                                <li>Partner with us </li>
+                                <li>Ride with us</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <ul style="list-style: none;">
+                                <li class="mainC10-5">Legal</li>
+                                <li>Terms & Conditions</li>
+                                <li>Refund & Cancellation</li>
+                                <li>Privacy Policy</li>
+                                <li>Cookie Policy</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="mainC10-4-2">
+                        <ul style="list-style: none;">
+                            <li class="mainC10-4-2-1">Follow Us</li>
+                            <li class="mainC10-4-2-1"><i class="fa-brands fa-instagram"></i> <i
+                                    class="fa-brands fa-facebook"></i> <i class="fa-brands fa-twitter"></i></li>
+                            <li class="mainC10-4-2-1">Receive exclusive offers in your mailbox</li>
+                            <li style="position: relative;"><input class="li-input" type="text"
+                                    placeholder="Enter Your email" name="" id="">
+                                <button class="li-button" type="button">Subscribe</button> <i
+                                    style="position: absolute; left: 12px; top: 12px; color: #FFFFFF9d;"
+                                    class="fa-solid fa-envelope"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="border: 2px solid #424242; width: 100%;">
+
+            <div class="Last">
+                <div>
+                    <h1 class="Last1">All rights Reserved <span class="Last1-1">&copy</span> <span class="Last1-2">Your
+                            Company, 2023</span> </h1>
+                </div>
+
+                <div>
+                    <h1 class="Last2">Made with <i class="fa-solid fa-heart Last2-1"></i> by <span
+                            class="Last2-2">Muhammad Qasim Raza</span></h1>
+                </div>
+            </div>
+
         </div>
 
     </container>
